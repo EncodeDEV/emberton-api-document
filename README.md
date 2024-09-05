@@ -10,7 +10,7 @@ https://zalo.me/s/3534601874382269533?csid=8577
 | Key | Value | Description |
 | :--- | :--- | :--- |
 | `qrcheck` | `B18.....` | Mã cá thể hóa được tạo bởi VietCheck |
-| `vid` | `64674743.....` | Mã lượt truy cập mã QR  |
+| `vid` | `64674743.....` | Mã lượt truy cập mã QR, gửi kèm các API để hệ thống VietCheck xác định lượt truy cập của khách hàng nào |
 
 ---
 
