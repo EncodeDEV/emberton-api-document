@@ -19,7 +19,7 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | `name` | `string` | **Bắt buộc**. Tên khách hàng |
 | `address` | `string` | **Bắt buộc**. Địa chỉ khách hàng |
 | `email` | `string` | Địa chỉ email của khách hàng |
-| `log_key` | `string` | Mã lượt truy cập QR nhận được từ VietCheck |
+| `log_key` | `string` | Mã lượt truy cập QR nhận được từ VietCheck (`vid`) |
 
 ### Kết quả trả về
 Kết quả dữ liệu hợp lệ:
