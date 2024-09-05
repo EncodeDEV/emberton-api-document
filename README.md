@@ -3,7 +3,8 @@
 ### Hành động chuyển hướng khi người dùng quét mã QR của VietCheck cung cấp cho Emberton
 Ngay khi người dùng quét mã QR hệ thống của VietCheck sẽ chuyển hướng sang địa chỉ sau:
  ```http
-REDIRECT 301 https://zalo.me/s/3534601874382269533?csid=8577
+REDIRECT 301
+https://zalo.me/s/3534601874382269533?csid=8577
 ```
 Đồng thời đính kèm các tham số:
 | Key | Value | Description |
