@@ -50,7 +50,7 @@ Content-Type: application/json
 - `data.edit` Ngày cập nhật thông tin khách hàng
 - `data.add_from` Nguồn ghi nhận thông tin khách hàng
 
-Dữ liệu không hợp lệ:
+Dữ liệu không tồn tại:
  ```http
 STATUS: 200 OK
 Content-Type: application/json
@@ -63,6 +63,24 @@ Content-Type: application/json
     "errors": {
         "email": [
             "Email khách hàng chưa tồn tại"
+        ]
+    }
+}
+```
+
+Dữ liệu không hợp lệ:
+ ```http
+STATUS: 200 OK
+Content-Type: application/json
+```
+```javascript
+{
+    "status": "NOT_FOUND",
+    "status_code": 422,
+    "message": "Có dữ liệu không hợp l",
+    "errors": {
+        "email": [
+            "Địa chỉ email không hợp lệ"
         ]
     }
 }
