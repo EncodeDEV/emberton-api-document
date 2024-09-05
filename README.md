@@ -1,5 +1,15 @@
 # Hướng dẫn sử dụng API hệ thống quản lý QR Emberton
 
+### Hành động chuyển hướng khi người dùng quét mã QR của VietCheck cung cấp cho Emberton
+Ngay khi người dùng quét mã QR hệ thống của VietCheck sẽ chuyển hướng sang địa chỉ sau:
+ ```http
+https://zalo.me/s/3534601874382269533?csid=8577
+```
+Đồng thời đính kèm các tham số:
+| Key | Value | Description |
+| :--- | :--- | :--- |
+| `qrcheck` | `B18.....` | Mã cá thể hóa được tạo bởi VietCheck |
+| `vid` | `64674743.....` | Mã lượt truy cập mã QR  |
 
 > [!IMPORTANT]
 > Tất cả các API cần gửi kèm Header các key sau:
