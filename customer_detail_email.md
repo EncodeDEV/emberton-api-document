@@ -15,4 +15,4 @@ Các tham số gửi lên ngoài tham số bắt buộc:
 | Key | Type | Description |
 | :--- | :--- | :--- |
 | `email` | `string` | **Bắt buộc**. Địa chỉ email của khách hàng |
-| `log_key` | `string` | Mã lượt truy cập QR nhận được từ VietCheck (vid) |
+| `log_key` | `string` | Mã lượt truy cập QR nhận được từ VietCheck (`vid`) |
